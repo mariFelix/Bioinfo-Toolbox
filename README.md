@@ -7,11 +7,11 @@ Marianne S. Felix
 marianne.sabourin-felix@hotmail.com
 ------------------------------------
 
-## dataMining_v2.py
+# dataMining_v2.py
 
-###### INTRODUCTION
+## INTRODUCTION
 
-###### HOW TO USE IT
+## HOW TO USE IT
 
 ```
 ===============
@@ -58,28 +58,28 @@ Information extracted for SRA Id : XXXXXX
 File test.tsv created !
 ```
 
-###### HOW IT WORKS
+## HOW IT WORKS
 
-## extendSmooth.py
+# extendSmooth.py
 
-###### INTRODUCTION
+## INTRODUCTION
 
-###### HOW TO USE IT
+## HOW TO USE IT
 
-###### HOW IT WORKS
+## HOW IT WORKS
 
-## sortPeakByFE_v2.py
+# sortPeakByFE_v2.py
 
-###### INTRODUCTION
+## INTRODUCTION
 
-###### HOW TO USE IT
+## HOW TO USE IT
 
-###### HOW IT WORKS
+## HOW IT WORKS
 
-## wigToBedgraph_v2.0.py
+# wigToBedgraph_v2.0.py
 
-###### INTRODUCTION
+## INTRODUCTION
 
-###### HOW TO USE IT
+## HOW TO USE IT
 
-###### HOW IT WORKS
+## HOW IT WORKS
