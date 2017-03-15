@@ -126,18 +126,23 @@ Information extracted for SRA Id : XXXXXXX
 File test.tsv created !
 ```
 
-
-
-
-
-
-
-
-
-
 ###### OPTION 4
 
+```
+ 4 - Download datasets from tsv file
+----------------------------------------------------------
+Download datasets from tsv file
+Please enter a tsv file you want to download datasets for :
+```
 
+```
+Processing GEO Id # XXXXXXXXX
+File XXXXXXXXX.sra downloaded !
+...
+Processing SRA Id # XXXXXXX
+File XXXXXXXXX.sra downloaded !
+...
+```
 
 ###### OPTION 5
 
