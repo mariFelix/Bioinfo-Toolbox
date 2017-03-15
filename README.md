@@ -7,6 +7,14 @@ Marianne S. Felix
 marianne.sabourin-felix@hotmail.com
 ------------------------------------
 
+# INTRODUCTION
+
+Various scripts
+
+# WARNINGS
+
+
+
 # dataMining_v2.py
 
 ## INTRODUCTION
