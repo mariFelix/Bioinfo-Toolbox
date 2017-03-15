@@ -9,7 +9,7 @@ marianne.sabourin-felix@hotmail.com
 
 # INTRODUCTION
 
-Various scripts
+Various scripts.
 
 # WARNINGS
 
