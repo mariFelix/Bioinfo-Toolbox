@@ -39,19 +39,24 @@ Please enter the maximum number of Id you want to retrieve in each of the 2 data
 Please enter a protein name (or many coma-separated) you want to search datasets for :
 ```
 
-
+```
+Number of datasets found in GEO database : X
+Number of datasets found in SRA database : Y
+There is Z non overlapping datasets found for this query !
+Do you want to save the information of this search in a tsv file ? [yes|no] : 
 ```
 
 ```
-
-
-
+Please enter an output file name for the Z dataset(s) found :
 ```
 
 ```
-
-
-
+Information extracted for GEO Id : XXXXXXXXX
+...
+Information extracted for SRA Id : XXXXXX
+...
+File test.tsv created !
+```
 
 ###### HOW IT WORKS
 
