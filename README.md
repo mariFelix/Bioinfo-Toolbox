@@ -1,4 +1,4 @@
-# Bioinfo-Toolbox
+# BIOINFO TOOLBOX
 
 2016-11-16
 
