@@ -135,9 +135,13 @@ Please enter a tsv file you want to download datasets for :
 
 ```
 Processing GEO Id # XXXXXXXXX
+Read Y spots total
+Written Y spots total
 File XXXXXXXXX.sra downloaded !
 ...
 Processing SRA Id # XXXXXXX
+Read Y spots total
+Written Y spots total
 File XXXXXXXXX.sra downloaded !
 ...
 ```
