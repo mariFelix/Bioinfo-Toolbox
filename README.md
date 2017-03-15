@@ -11,6 +11,8 @@ marianne.sabourin-felix@hotmail.com
 
 ## INTRODUCTION
 
+This script allows to screen the GEO datasets database and the SRA database.
+
 ## HOW TO USE IT
 
 ```
@@ -91,10 +93,6 @@ Information extracted for SRA Id : XXXXXXX
 File test.tsv created !
 ```
 
-
-
-
-
 ###### OPTION 3
 
 ```
@@ -149,8 +147,6 @@ File XXXXXXXXX.sra downloaded !
 ```
 Exiting program... Goodbye ! :)
 ```
-
-## HOW IT WORKS
 
 # extendSmooth.py
 
