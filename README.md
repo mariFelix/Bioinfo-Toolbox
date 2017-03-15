@@ -80,7 +80,7 @@ Do you want to save the information of this search in a tsv file ? [yes|no] :
 ```
 
 ```
-Please enter an output file name for the 20 dataset(s) found :
+Please enter an output file name for the Z dataset(s) found :
 ```
 
 ```
