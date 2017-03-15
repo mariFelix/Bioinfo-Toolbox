@@ -13,7 +13,7 @@ Various scripts
 
 # WARNINGS
 
-
+These scripts are provided without warranty. You can redistribute and/or modify it under the terms of the GNU General Public License v3.
 
 # dataMining_v2.py
 
