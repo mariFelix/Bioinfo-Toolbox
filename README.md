@@ -31,7 +31,6 @@ Your choice :
 
 ###### OPTION 1
 
-
 ```
  1 - Search datasets on database (ChIP-seq by protein)
 ----------------------------------------------------------
@@ -97,6 +96,42 @@ File test.tsv created !
 
 
 ###### OPTION 3
+
+```
+ 3 - Search datasets on database (DNase-seq by cell type)
+----------------------------------------------------------
+Please enter the maximum number of Id you want to retrieve in each of the 2 databases [1-100000] :
+```
+
+```
+Please enter a cell type (or many coma-separated) you want to search datasets for :
+```
+
+```
+Number of datasets found in GEO database : X
+Number of datasets found in SRA database : Y
+There is Z non overlapping datasets found for this query !
+Do you want to save the information of this search in a tsv file ? [yes|no] :
+```
+
+```
+Please enter an output file name for the Z dataset(s) found :
+```
+
+```
+Information extracted for GEO Id : XXXXXXXXX
+...
+Information extracted for SRA Id : XXXXXXX
+...
+File test.tsv created !
+```
+
+
+
+
+
+
+
 
 
 
