@@ -29,6 +29,9 @@ Please make a choice among the following :
 Your choice : 
 ```
 
+###### OPTION 1
+
+
 ```
  1 - Search datasets on database (ChIP-seq by protein)
 ----------------------------------------------------------
@@ -57,6 +60,23 @@ Information extracted for SRA Id : XXXXXX
 ...
 File test.tsv created !
 ```
+
+###### OPTION 2
+
+
+
+###### OPTION 3
+
+
+
+###### OPTION 4
+
+
+
+###### OPTION 5
+
+
+
 
 ## HOW IT WORKS
 
