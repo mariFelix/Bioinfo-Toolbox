@@ -29,6 +29,30 @@ Please make a choice among the following :
 Your choice : 
 ```
 
+```
+ 1 - Search datasets on database (ChIP-seq by protein)
+----------------------------------------------------------
+Please enter the maximum number of Id you want to retrieve in each of the 2 databases [1-100000] :
+```
+
+```
+Please enter a protein name (or many coma-separated) you want to search datasets for :
+```
+
+
+```
+
+```
+
+
+
+```
+
+```
+
+
+
+
 ###### HOW IT WORKS
 
 ## extendSmooth.py
