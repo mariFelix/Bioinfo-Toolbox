@@ -183,3 +183,19 @@ Exiting program... Goodbye ! :)
 ## HOW TO USE IT
 
 ## HOW IT WORKS
+
+# binning25bp.sh
+
+## INTRODUCTION
+
+## HOW TO USE IT
+
+## HOW IT WORKS
+
+# gcContent_Ekblom.sh
+
+## INTRODUCTION
+
+## HOW TO USE IT
+
+## HOW IT WORKS
