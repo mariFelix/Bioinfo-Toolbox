@@ -20,9 +20,21 @@ These scripts are provided without warranty. You can redistribute and/or modify 
 
 ## INTRODUCTION
 
+This script will do the binning (cut the coverage into windows and compute the average for each window) of bedGraph files.
+
 ## HOW TO USE IT
 
+```
+./binningBedGraph.sh input window output
+```
+###### EXAMPLE
+
+```
+./binningBedGraph.sh UBF_Rep1-MmrDNA+35.bedGraph 25 UBF_Rep1-MmrDNA+35_bin25.bedGraph
+```
+
 ## HOW IT WORKS
+
 
 
 # dataMining_v2.py
