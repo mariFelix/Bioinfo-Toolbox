@@ -15,6 +15,16 @@ Various scripts.
 
 These scripts are provided without warranty. You can redistribute and/or modify it under the terms of the GNU General Public License v3.
 
+
+# binning25bp.sh
+
+## INTRODUCTION
+
+## HOW TO USE IT
+
+## HOW IT WORKS
+
+
 # dataMining_v2.py
 
 ## INTRODUCTION
@@ -160,6 +170,7 @@ File XXXXXXXXX.sra downloaded !
 Exiting program... Goodbye ! :)
 ```
 
+
 # extendSmooth.py
 
 ## INTRODUCTION
@@ -167,6 +178,25 @@ Exiting program... Goodbye ! :)
 ## HOW TO USE IT
 
 ## HOW IT WORKS
+
+
+# gcContent_Ekblom.sh
+
+## INTRODUCTION
+
+## HOW TO USE IT
+
+## HOW IT WORKS
+
+
+# normalizationWithqPCR.py
+
+## INTRODUCTION
+
+## HOW TO USE IT
+
+## HOW IT WORKS
+
 
 # sortPeakByFE_v2.py
 
@@ -176,6 +206,7 @@ Exiting program... Goodbye ! :)
 
 ## HOW IT WORKS
 
+
 # wigToBedgraph_v2.0.py
 
 ## INTRODUCTION
@@ -184,18 +215,3 @@ Exiting program... Goodbye ! :)
 
 ## HOW IT WORKS
 
-# binning25bp.sh
-
-## INTRODUCTION
-
-## HOW TO USE IT
-
-## HOW IT WORKS
-
-# gcContent_Ekblom.sh
-
-## INTRODUCTION
-
-## HOW TO USE IT
-
-## HOW IT WORKS
