@@ -182,6 +182,8 @@ File XXXXXXXXX.sra downloaded !
 Exiting program... Goodbye ! :)
 ```
 
+## HOW IT WORKS
+
 
 # extendSmooth.py
 
