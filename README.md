@@ -35,7 +35,7 @@ This script will do the binning (cut the coverage into windows and compute the a
 
 ## HOW IT WORKS
 
-
+This script will read the input file line by line and extract the following variables : chromosome, start, end, coverage. It will then compute the mean in each window and replace the coverage by the mean computed. The result will be written in the output file.
 
 # dataMining_v2.py
 
