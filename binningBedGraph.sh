@@ -5,7 +5,7 @@
 # Version : 1.0
 # 2017-10-16
 #
-# binning25bp.sh
+# binningBedGraph.sh
 
 input=$1
 window=$2
