@@ -15,6 +15,27 @@ Various scripts.
 
 These scripts are provided without warranty. You can redistribute and/or modify it under the terms of the GNU General Public License v3.
 
+# bamToBigWig.sh
+
+## INTRODUCTION
+
+This script converts BAM files into bigWig. It requires bedtools and the script bedGraphToBigWig from UCSC : (http://hgdownload.soe.ucsc.edu/admin/exe/).
+
+## HOW TO USE IT
+
+```
+./bamToBigWig.sh file path/to/bedgraphToBigWigFolder
+```
+###### EXAMPLE
+
+```
+./bamToBigWig.sh file.bam /App/UCSC
+```
+
+## HOW IT WORKS
+
+This script first converts the input BAM file into bedGraph and then converts the resulting bedGraph file into bigWig.
+
 
 # binningBedGraph.sh
 
