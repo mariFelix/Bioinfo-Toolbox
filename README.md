@@ -19,7 +19,12 @@ These scripts are provided without warranty. You can redistribute and/or modify 
 
 ## INTRODUCTION
 
-This script converts BAM files into bigWig. It requires bedtools and the script bedGraphToBigWig from UCSC : (http://hgdownload.soe.ucsc.edu/admin/exe/).
+This script converts BAM files into bigWig.
+
+## DEPENDECIES
+
+* BedTools
+* bedGraphToBigWig from UCSC (http://hgdownload.soe.ucsc.edu/admin/exe/)
 
 ## HOW TO USE IT
 
