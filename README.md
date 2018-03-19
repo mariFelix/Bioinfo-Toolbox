@@ -247,7 +247,7 @@ Exiting program... Goodbye ! :)
 ## HOW IT WORKS
 
 
-# removePrimercontamination.sh
+# removePrimerContamination.sh
 
 ## INTRODUCTION
 
