@@ -15,6 +15,15 @@ Various scripts.
 
 These scripts are provided without warranty. You can redistribute and/or modify it under the terms of the GNU General Public License v3.
 
+# bamSplit.sh
+
+## INTRODUCTION
+
+## HOW TO USE IT
+
+## HOW IT WORKS
+
+
 # bamToBigWig.sh
 
 ## INTRODUCTION
@@ -230,6 +239,15 @@ Exiting program... Goodbye ! :)
 
 
 # normalizationWithqPCR.py
+
+## INTRODUCTION
+
+## HOW TO USE IT
+
+## HOW IT WORKS
+
+
+# removePrimercontamination.sh
 
 ## INTRODUCTION
 
