@@ -19,12 +19,21 @@ These scripts are provided without warranty. You can redistribute and/or modify 
 
 ## INTRODUCTION
 
+This scripts split BAM files by chromosomes.
+
 ## DEPENDECIES
+
+* bamtools
 
 ## HOW TO USE IT
 
+```
+./bamSplit.sh file.bam outputDirectory
+```
+
 ## HOW IT WORKS
 
+This script uses bamtools to split the input file into chromsomes. It will create files similar to : file-REF_*.bam
 
 # bamToBigWig.sh
 
@@ -42,6 +51,7 @@ This script converts BAM files into bigWig.
 ```
 ./bamToBigWig.sh file path/to/bedgraphToBigWigFolder
 ```
+
 ###### EXAMPLE
 
 ```
