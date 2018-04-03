@@ -61,6 +61,9 @@ This script will do the binning (cut the coverage into windows and compute the a
 
 ## DEPENDECIES
 
+* bc
+* mathlib
+
 ## HOW TO USE IT
 
 ```
