@@ -87,6 +87,9 @@ This script allows to screen the GEO datasets database and the SRA database.
 
 ## DEPENDECIES
 
+* Python
+* BioPython
+
 ## HOW TO USE IT
 
 ```
