@@ -1,7 +1,7 @@
 #!/bin/bash
 # author: Marianne S. Felix
 # marianne.sabourin-felix.1@ulaval.ca
-# Version : 2.0
+# Version : 1.0
 # 2015-07-13
 # 2015-09-02
 #
@@ -16,14 +16,14 @@
 ########################################################
 
 menu="
-bamSplit.sh version 2.0
+bamSplit.sh version 1.0
 --------------------------------
 This script split BAM files by chromosome.
 
 Usage   : ./bamSplit.sh inFile.bam outDirectoryName
 Example : ./bamSplit.sh IP_exp1.bam experiment1
 
-This script will generate an output similar to : experiment1/IP_exp1.REF_*.bam
+This script will generate an output similar to : experiment1/IP_exp1-REF_*.bam
 Where \"*\" represents each chromosome.
 "
 
