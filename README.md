@@ -19,6 +19,8 @@ These scripts are provided without warranty. You can redistribute and/or modify 
 
 ## INTRODUCTION
 
+## DEPENDECIES
+
 ## HOW TO USE IT
 
 ## HOW IT WORKS
@@ -57,6 +59,8 @@ This script first converts the input BAM file into bedGraph and then converts th
 
 This script will do the binning (cut the coverage into windows and compute the average for each window) of bedGraph files.
 
+## DEPENDECIES
+
 ## HOW TO USE IT
 
 ```
@@ -77,6 +81,8 @@ This script will read the input file line by line and extract the following vari
 ## INTRODUCTION
 
 This script allows to screen the GEO datasets database and the SRA database.
+
+## DEPENDECIES
 
 ## HOW TO USE IT
 
