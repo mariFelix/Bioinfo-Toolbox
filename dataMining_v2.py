@@ -81,7 +81,7 @@ def _getSeqMeth(seqMeth):
     if seqMeth == "chipSeq":
         seq = "ChIP-seq OR ChIPseq OR chip+seq OR ChIP+sequencing"
     elif seqMeth == "dnaseSeq":
-        seq = "DNAse1 OR DNAse-seq OR DNAseSeq OR dnase+seq OR DNAse+sequencing"
+        seq = "DNase1 OR DNase-seq OR DNaseSeq OR DNase+seq OR DNase+sequencing"
 
     return seq
 
