@@ -241,6 +241,17 @@ Exiting program... Goodbye ! :)
 
 ## HOW IT WORKS
 
+This script use queries (protein name, cell type, experiment type) to screen into the GEO datasets database and the SRA database of ncbi (https://www.ncbi.nlm.nih.gov/). If a dataset is common to de two databases, only the GEO Id of this dataset will be kept. The resulting datasets found can be written in an output tsv file.
+
+The output contains :
+* The database where the data were found
+* The Id
+* The descriptor
+* The format of the data found in the database
+
+If the 4th option is chosen, the user can download the data previously found with option 1 to 3. For this, the script must be rerun with option 4 after being run wiht option 1 to 3.
+
+*test
 
 # extendSmooth.py
 
