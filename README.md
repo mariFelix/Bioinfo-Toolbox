@@ -251,8 +251,6 @@ The output contains :
 
 If the 4th option is chosen, the user can download the data previously found with option 1 to 3. For this, the script must be rerun with option 4 after being run wiht option 1 to 3.
 
-*test
-
 # extendSmooth.py
 
 ## INTRODUCTION
