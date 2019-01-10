@@ -264,7 +264,25 @@ If the 4th option is chosen, the user can download the data previously found wit
 
 ## INTRODUCTION
 
+This script is used to get the gc content pattern (% GC) of a sequence. The input file must contain the postion along the sequence and the corresponding base (A, T, G or C) one position per line.
+
 ## HOW TO USE IT
+
+```
+./gcContent_Ekblom.sh input window output
+```
+
+The input file must be :
+
+Position    Base
+
+###### EXAMPLE
+
+1   A
+2   C
+3   C
+4   G
+5   T
 
 ## HOW IT WORKS
 
