@@ -274,15 +274,17 @@ This script is used to get the gc content pattern (% GC) of a sequence. The inpu
 
 The input file must be :
 
-Position    Base
+Positio       Base
 
 ###### EXAMPLE
 
-    1   A
-    2   C
-    3   C
-    4   G
-    5   T
+```
+1   A
+2   C
+3   C
+4   G
+5   T
+```
 
 ## HOW IT WORKS
 
