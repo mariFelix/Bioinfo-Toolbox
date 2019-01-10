@@ -272,9 +272,9 @@ This script is used to get the gc content pattern (% GC) of a sequence. The inpu
 ./gcContent_Ekblom.sh input window output
 ```
 
-The input file must be :
+The input file must be in this format :
 
-Positio       Base
+Position    Base
 
 ###### EXAMPLE
 
