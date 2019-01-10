@@ -264,7 +264,7 @@ If the 4th option is chosen, the user can download the data previously found wit
 
 ## INTRODUCTION
 
-This script is used to get the gc content pattern (% GC) in bedgraph of a sequence. The input file must contain the postion along the sequence and the corresponding base (A, T, G or C) one position per line. The chromosome name is hard coded but in can be changed.
+This script is used to get the gc content pattern (% GC) in bedgraph of a sequence using an averaging window set by the user. The input file must contain the postion along the sequence and the corresponding base (A, T, G or C), one position per line. The chromosome name is hard coded but can be changed.
 
 ## HOW TO USE IT
 
@@ -288,6 +288,7 @@ Position    Base
 
 ## HOW IT WORKS
 
+This script assign a score according to the base found at every position using a non-overlapping sliding window. G, C and S (G or C) is 1 (100% GC). B (C or G or T) and V (A or C or G) is 0.66666. K (G or T), M (A or C), R (A or G) and Y (C or T) is 0.5. D (A or G or T) and H (A or C or T) is 0.33333. Finally, A, T, W (A or T) and N (A or C or G or T) is 0. The script sums up the scores until reaching the window size. Then it divides the total score of the window by the size of the window and multiply it by 100. It then print the chromosome, the start and the end position of the window and the GC content in a BedGraph format. You can then visualize the resulting file in IGV.
 
 # normalizationWithqPCR.py
 
