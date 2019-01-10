@@ -278,11 +278,11 @@ Position    Base
 
 ###### EXAMPLE
 
-1   A
-2   C
-3   C
-4   G
-5   T
+1&nbsp;A\n
+2&nbsp;C\n
+3&nbsp;C\n
+4&nbsp;G\n
+5&nbsp;T\n
 
 ## HOW IT WORKS
 
