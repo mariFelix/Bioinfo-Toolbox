@@ -264,7 +264,7 @@ If the 4th option is chosen, the user can download the data previously found wit
 
 ## INTRODUCTION
 
-This script is used to get the gc content pattern (% GC) of a sequence. The input file must contain the postion along the sequence and the corresponding base (A, T, G or C) one position per line.
+This script is used to get the gc content pattern (% GC) in bedgraph of a sequence. The input file must contain the postion along the sequence and the corresponding base (A, T, G or C) one position per line. The chromosome name is hard coded but in can be changed.
 
 ## HOW TO USE IT
 
