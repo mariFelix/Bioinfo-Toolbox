@@ -287,9 +287,11 @@ This script assign a score according to the base found at every position using a
 
 ## INTRODUCTION
 
-
+This script allows to normalize bedgraphs KO files according to the qPCR results.
 
 ## HOW TO USE IT
+
+
 
 ## HOW IT WORKS
 
