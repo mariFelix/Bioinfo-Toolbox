@@ -291,7 +291,49 @@ This script allows to normalize bedgraphs KO files according to the qPCR results
 
 ## HOW TO USE IT
 
+```
+python normalizationWithqPCR.py
+```
 
+```
+Please enter your non-induced normalized file :
+```
+
+```
+Please enter your induced normalized file :
+```
+
+```
+Please enter your output file name :
+```
+
+```
+Do you want to use the IGS3 primer [yes|no] :
+```
+
+```
+Please enter the qPCR value for IGS3 non-induced :
+```
+
+```
+Please enter the qPCR value for IGS3 induced :
+```
+
+```
+...
+```
+
+```
+Do you want to use the TIA primer [yes|no] :
+```
+
+```
+Please enter the qPCR value for TIA non-induced :
+```
+
+```
+Please enter the qPCR value for TIA induced :
+```
 
 ## HOW IT WORKS
 
