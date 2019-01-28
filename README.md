@@ -287,7 +287,7 @@ This script assign a score according to the base found at every position using a
 
 ## INTRODUCTION
 
-This script allows to normalize bedgraphs KO files according to the qPCR results.
+This script allows to normalize bedgraphs KO files according to the qPCR results of rDNA primers (IGS3, SpPr, Tsp, Prom, 47S, ETS, 28S, T1A).
 
 ## HOW TO USE IT
 
