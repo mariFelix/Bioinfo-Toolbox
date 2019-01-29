@@ -347,6 +347,7 @@ Final mean : X
 
 ## HOW IT WORKS
 
+This script ask the user for the qPCR values of non-induced and induced (KO) datasets for different primers on the rDNA. One can choose any primer(s) to do the analysis. The script stocks the ratio between the non-induced over the induced in a dictionnay of lists with 2 argument along with the position of the primers (start of forward primer to the start of the reverse primer). The primers with a ratio of zero (not chosen by the user) are removed from the dictionnary. Then the script reads the input non-induced file and the input induced file line by line and for each primer, it stocks the coverage that falls inside the primer region do to an averaging.
 
 # removePrimerContamination.sh
 
