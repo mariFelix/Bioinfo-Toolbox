@@ -387,6 +387,8 @@ This script takes as an input 4 files (hard coded) and removes the forward and r
 
 ## INTRODUCTION
 
+This script converts *.wig files into *.bedgraph files.
+
 ## HOW TO USE IT
 
 ## HOW IT WORKS
