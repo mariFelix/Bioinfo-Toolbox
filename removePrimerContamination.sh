@@ -11,7 +11,7 @@
 menu="
 removePrimerContamination.sh version 1.0
 -----------------------------------
-This script removes primer contamination from Smc1 and Rad21.
+This script removes primer contamination from BAM files.
 
 Usage   : ./removePrimerContamination.sh processedFile1.bam processedFile2.bam processedFile3.bam processedFile4.bam outputFolder
 
