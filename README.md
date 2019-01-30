@@ -398,7 +398,7 @@ This script converts *.wig files into *.bedgraph files.
 ###### EXAMPLE
 
 ```
-./wigToBedgraph.sh inFile.wig outFileName
+./wigToBedgraph.sh MmrDNA35.wig experiment1
 ```
 
 
