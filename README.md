@@ -372,6 +372,7 @@ This script removes the contamination of primers on the rDNA in the aligned BAM 
 
 ## HOW IT WORKS
 
+This script takes as an input 4 files (hard coded) and removes the forward and reverse primer sequences (sequences are hard coded but can be modified according to the primer contamining the datasets). The BAM datasets are converted to SAM format. The a "grep -v" is done to extract reads that DOESN'T contain the forward and reverse primer sequences. The result is then outputted in the ouput file (in SAM format) that is reconverted into BAM format.
 
 # sortPeakByFE_v2.py
 
