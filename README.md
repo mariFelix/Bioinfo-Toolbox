@@ -362,6 +362,9 @@ This script ask the user for the qPCR values of non-induced and induced (KO) dat
 
 ## INTRODUCTION
 
+This script removes the contamination of primers on the rDNA in the aligned BAM files.
+
+
 ## HOW TO USE IT
 
 ## HOW IT WORKS
