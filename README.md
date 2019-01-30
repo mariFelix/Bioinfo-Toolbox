@@ -391,5 +391,16 @@ This script converts *.wig files into *.bedgraph files.
 
 ## HOW TO USE IT
 
+```
+./wigToBedgraph.sh inFile.wig outFileName
+```
+
+###### EXAMPLE
+
+```
+./wigToBedgraph.sh inFile.wig outFileName
+```
+
+
 ## HOW IT WORKS
 
