@@ -403,4 +403,4 @@ This script converts *.wig files into *.bedgraph files.
 
 ## HOW IT WORKS
 
-This script reads the *.wig file line by line. It extracts the chromosome name and the span (number of base having the same coverage. Then it prints the position (base by base) along with its coverage in the output *.bedgraph file.
+This script reads the *.wig file line by line. It extracts the chromosome name and the span (number of base having the same coverage) and the coverage. Then it prints the position (base by base) along with its coverage in the output *.bedgraph file.
