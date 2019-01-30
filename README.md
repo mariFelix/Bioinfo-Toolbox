@@ -364,8 +364,11 @@ This script ask the user for the qPCR values of non-induced and induced (KO) dat
 
 This script removes the contamination of primers on the rDNA in the aligned BAM files.
 
-
 ## HOW TO USE IT
+
+```
+./removePrimerContamination.sh processedFile1.bam processedFile2.bam processedFile3.bam processedFile4.bam outputFolder
+```
 
 ## HOW IT WORKS
 
