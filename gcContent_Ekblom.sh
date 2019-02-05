@@ -18,7 +18,7 @@ i=0
 while read -r line;
 do    
     # Get line arguments
-    IFS=' ' read pos base <<< $line
+    read pos base <<< $line
     
     #echo "pos : $pos, base : $base"
     
