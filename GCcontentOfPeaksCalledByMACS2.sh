@@ -211,4 +211,3 @@ echo "Sequence extraction and GC% calculation done in $(($ElapsedTime / 3600 )) 
 hours $((($ElapsedTime % 3600) / 60)) minutes $(($ElapsedTime % 60)) seconds !"
 
 
-
