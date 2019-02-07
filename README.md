@@ -293,6 +293,8 @@ This script assign a score according to the base found at every position using a
 
 ## INTRODUCTION
 
+This script computes the average GC% for each peak regions called by MACS2.
+
 ## HOW TO USE IT
 
 ## HOW IT WORKS
