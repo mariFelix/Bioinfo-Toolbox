@@ -30,7 +30,7 @@ outputName -> Output name of the GC% file
 * To put the sequence on one line do : sed '1d' file.fa | tr -d '\n' output.fa
 
 This script will generate output similar to : outputName_GC.tsv
-that contain : chr, start, end, peakName, sequence, %GC
+that contain : chr, start, end, peakName, sequence, GC%
 "
 
 # Display color in shell
