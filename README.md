@@ -297,6 +297,19 @@ This script computes the average GC% for each peak regions called by MACS2.
 
 ## HOW TO USE IT
 
+This script requires the genome files (*.fa) to be in one line. To do so, use the following command :
+
+```
+sed '1d' file.fa | tr -d '\n' output.fa
+```
+
+###### OR
+
+```
+for file in *.fa; do sed '1d' $file | tr -d '\n' outputDirectory/$file; done
+```
+
+
 ## HOW IT WORKS
 
 This script reads the *.narrowPeak file line by line (one peak per line) and extracts the sequence for each peak from the reference sequence file. It then computes the average GC% for this sequence. The result is printed in the output file along with the chromosome name, the start and the end positions of the peak, the peak name, its sequence and the computed GC%. At the end, the average GC% of all the peaks is printed to the terminal.
