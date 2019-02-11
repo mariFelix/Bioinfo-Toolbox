@@ -300,13 +300,13 @@ This script computes the average GC% for each peak regions called by MACS2.
 This script requires the genome files (*.fa) to be in one line. To do so, use the following command :
 
 ```
-sed '1d' file.fa | tr -d '\n' output.fa
+sed '1d' file.fa | tr -d '\n' > output.fa
 ```
 
 ###### OR
 
 ```
-for file in *.fa; do sed '1d' $file | tr -d '\n' outputDirectory/$file; done
+for file in *.fa; do sed '1d' $file | tr -d '\n' > outputDirectory/$file; done
 ```
 
 
