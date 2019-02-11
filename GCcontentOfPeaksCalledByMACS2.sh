@@ -27,7 +27,7 @@ narrowPeak -> Peak files called with MACS2 (narrowPeak format)
 chrFolder  -> Folder that contain the chromosomes files in fasta with the sequence on one line without header *
 outputName -> Output name of the GC% file
  
-* To put the sequence on one line do : sed '1d' file.fa | tr -d '\n' output.fa
+* To put the sequence on one line do : sed '1d' file.fa | tr -d '\n' > output.fa
 
 This script will generate output similar to : outputName_GC.tsv
 that contain : chr, start, end, peakName, sequence, GC%
