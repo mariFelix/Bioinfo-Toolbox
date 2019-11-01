@@ -102,6 +102,11 @@ This script allows to screen the GEO datasets database and the SRA database.
 
 ## HOW TO USE IT
 
+
+```
+python dataMining.py
+```
+
 ```
 ===============
     M E N U 
@@ -406,9 +411,9 @@ This script allows to sort peaks according to their fold enrichment (FE).
 ## HOW TO USE IT
 
 ```
-$ python sortPeakByFE_v2.py --help
+$ python sortPeakByFE.py --help
 
-usage: sortPeakByFE_v2.py [-h] (-r | -k) threshold input output
+usage: sortPeakByFE.py [-h] (-r | -k) threshold input output
 
   This script allows to sort peaks according to their fold enrichment (FE).
 
