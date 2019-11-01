@@ -440,7 +440,13 @@ This function keeps peaks that have a fold enrichment over (threshold * fold enr
 
 ## HOW IT WORKS
 
-###### *** Under construction ***
+###### With the -r option
+
+This script takes as an input a threshold, a standard narrowPeak file and an ouput file name. It stores the lines of the input file and sort them by fold enrichment (FE, 6th column). It then kepps only the peaks with an FE over the given threshold and output them into the ouput file.
+
+###### With the -k option
+
+*** Under construction ***
 
 # wigToBedgraph_v2.0.py
 
