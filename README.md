@@ -401,10 +401,25 @@ This script takes as an input 4 files (hard coded) and removes the forward and r
 
 ## INTRODUCTION
 
+This script allows to sort peaks according to their fold enrichment (FE).
+
 ## HOW TO USE IT
+
+```
+python sortPeakByFE_v2.py [-h] (-r | -k) threshold input output
+```
+
+###### -r option (removeFPnarrowPeak)
+
+This function removes peaks that have a fold enrichment below a given threshold. It prints the resulting peaks into the outputFile and returns the number of peak over the given threshold.
+
+###### -k option (keepFNnarrowPeak)
+
+This function keeps peaks that have a fold enrichment over (threshold * fold enrichment of KO). It prints the resulting peaks into the outputFile and returns the number of peak over (threshold * fold enrichment of KO).
 
 ## HOW IT WORKS
 
+###### *** Under construction ***
 
 # wigToBedgraph_v2.0.py
 
