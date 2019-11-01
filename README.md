@@ -406,7 +406,28 @@ This script allows to sort peaks according to their fold enrichment (FE).
 ## HOW TO USE IT
 
 ```
-python sortPeakByFE_v2.py [-h] (-r | -k) threshold input output
+$ python sortPeakByFE_v2.py --help
+
+usage: sortPeakByFE_v2.py [-h] (-r | -k) threshold input output
+
+  This script allows to sort peaks according to their fold enrichment (FE).
+
+positional arguments:
+  threshold   Fold enrichment threshold (float over 1)
+  input       Input file
+  output      Output file (will be overwritten if exists)
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -r          Removes peaks with FE below threshold
+  -k          Keeps peaks with FE of IP over (threshold * FE of KO)
+
+examples:
+  python sortNarrowPeakByFE.py -r threshold in.narrowPeak out.narrowPeak
+       * "in.narrowPeak" is the standard output from MACS2 callpeak
+
+  python sortNarrowPeakByFE.py -k threshold in.narrowPeak out.narrowPeak
+       * "in.narrowPeak" is the output from bedtools intersect -loj
 ```
 
 ###### -r option (removeFPnarrowPeak)
